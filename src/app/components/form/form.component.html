@@ -1,0 +1,91 @@
+
+<header>
+    <h1 class="text-center my-5 fw-bold">Crear un nuevo post</h1>
+</header>
+<section class="container w-50 mb-5">
+    <form class="d-flex flex-column p-5" [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="field mb-3">
+            <label class="d-block fw-bold mb-2" for="title">Título</label>
+            <input class="mb-2 p-2 w-100" id="title" name="title" type="text" formControlName="title">
+            <p class="error"
+                *ngIf="checkError ('title', 'required')">Debes escribir el título del post (entre 25 y 130 caracteres).
+            </p>
+            <p class="error"
+                *ngIf="checkError ('title', 'minlength')">Debes escribir el título del post (entre 25 y 130 caracteres).
+            </p>
+            <p class="error"
+            *ngIf="checkError ('title', 'maxlength')">Debes escribir el título del post (entre 25 y 130 caracteres).
+            </p>
+        </div>
+        <div class="field mb-3">
+            <label class="fw-bold d-block mb-2" for="text">Texto del post</label>
+            <textarea class="mb-2 p-2 w-100 height-input" id="text" name="text" formControlName="text"></textarea>
+            <p class="error"
+                *ngIf="checkError ('text', 'required')">Debes escribir el contenido el post aquí (al menos 300 caracteres).
+            </p>
+            <p class="error"
+                *ngIf="checkError ('text', 'minlength')">Debes escribir el contenido el post aquí (al menos 300 caracteres).                        
+        </div>
+        <div class="field mb-3">
+            <label class="fw-bold d-block mb-2" for="excerpt">Resumen</label>
+            <textarea class="mb-2 p-2 w-100" id="excerpt" name="excerpt" formControlName="excerpt"></textarea>
+            <p class="error"
+                *ngIf="checkError ('excerpt', 'required')">Debes un resumen del post aquí (al menos 30 caracteres). Se mostrará junto con la imagen destacada en la previsualización del post.
+            </p>
+            <p class="error"
+                *ngIf="checkError ('excerpt', 'minlength')">Debes escribir un breve resumen del post (al menos 30 caracteres). 
+            </p>            
+        </div>        
+        <div class="field mb-3">
+            <label class="fw-bold d-block mb-2 w-25" for="author">Autor</label>
+            <input class="mb-2 p-2 w-100" id="author" name="author" type="text" formControlName="author">
+            <p class="error"
+                *ngIf="checkError ('author', 'required')">Debes escribir el autor (entre 8 y 25 caracteres).
+            </p>
+            <p class="error"
+                *ngIf="checkError ('author', 'minlength')">Debes escribir el autor (entre 8 y 25 caracteres).
+            </p>
+            <p class="error"
+                *ngIf="checkError ('author', 'maxlength')">Debes escribir el autor (entre 8 y 25 caracteres).
+            </p>
+        </div>
+        <div class="field mb-3">
+            <label class="fw-bold d-block mb-2" for="img">URL imagen principal del post</label>
+            <input class="mb-2 p-2 w-100" id="img" name="img" type="url" formControlName="img">
+            <p class="error"
+                *ngIf="checkError ('img', 'required')">Debes escribir la url de la imagen principal del post.
+            </p>
+            <p class="error"
+                *ngIf="checkError ('img', 'pattern')">Formato URL incorrecto.
+            </p>            
+        </div>
+        <div class="field mb-3">
+            <label class="fw-bold d-block mb-2">Elige una categoría</label>
+            <select class="mb-2 p-2" id="id-category" name="id-category" title="category-filter" formControlName="id_category">
+                <option>Todas</option>
+                <option name="category.title" [value]="category.id" *ngFor="let category of arrCategories">{{category.title}}</option>
+            </select>
+            <p class="error"
+                *ngIf="checkError ('id_category', 'required')">Indica a qué categoría pertenece el nuevo post.
+            </p>
+        </div> 
+        <div class="field mb-3">
+            <label class="fw-bold d-block mb-2" for="img">Fecha de publicación</label>
+            <input class="mb-2 p-2" id="date" name="date" type="date" formControlName="date">
+            <p class="error"
+                *ngIf="checkError ('date', 'required')">Indica la fecha en la que se publicará el post.
+            </p>
+        </div>
+        <button class="btn btn-outline-warning my-3 fw-bold w-50" type="submit" [disabled]="form.invalid">Crear post</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<div class="container-fluid"> 
+    <div class="row p-5 footer">
+        <div class="col-xs-12 col-md-6 col-lg-3 pe-5">
+            <p class="h4 fw-bold color-title">Explorando el mundo</p>
+            <p class="">¿Eres un entusiasta de las aventuras, fascinado por descubrir nuevas culturas y conectarte con personas de todas partes del globo? ¡Nosotros compartimos esa pasión contigo! Si tienes una historia de viaje fascinante para compartir o consejos útiles para otros trotamundos, ¡no dudes en dejar un comentario!</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h6 pt-1 fw-bold color-title">Encuentra tu destino</p>            
+            <nav *ngFor="let category of arrCategories" class="nav-color">
+                <p class="d-block text-decoration-none h6 mt-3 " [routerLink]="['/categorias', removeEnyeUrl(category.title)]">{{category.title}}</p>
+            </nav>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 nav-color">
+            <p class="h6 pt-1 fw-bold color-title">Contáctanos</p>            
+            <p><a href="#" class="d-block text-decoration-none mt-3 h6">Facebook</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">Twitter</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">TikTok</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">Instagram</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">Contacto</a></p>   
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 nav-color">
+            <p class="h6 pt-1 fw-bold color-title">Legal</p>
+            <p><a href="#" class="d-block text-decoration-none mt-3 h6">Política privacidad</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">Uso cookies</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">Términos y condiciones</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">FAQs</a></p>
+            <p><a href="#" class="d-block text-decoration-none h6">Atención al cliente</a></p>
+        </div>
+    </div>
+</div>

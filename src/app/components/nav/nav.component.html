@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg px-5 py-3">
+  <div class="container-fluid">   
+    <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto fw-bold">
+        <li class="nav-item px-1">
+          <a class="nav-link menu-active" aria-current="page" routerLink="/home">Home</a>          
+        </li>
+        <li *ngFor="let category of arrCategories" class="nav-item px-1">
+          <a class="nav-link menu-inactive" [routerLink]="['/categorias', removeEnyeUrl(category.title)]">{{category.title}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a href="#"><i class="bi bi-facebook px-2"></i></a>
+    </li>
+    <li class="nav-item">
+      <a><i class="bi bi-twitter-x px-2"></i></a>
+    </li>
+    <li class="nav-item">
+      <a href="#"><i class="bi bi-tiktok px-2"></i></a>
+    </li>
+    <li class="nav-item">
+      <a href="#"><i class="bi bi-instagram px-2"></i></a>
+    </li>
+  </ul>
+</nav>
+
+

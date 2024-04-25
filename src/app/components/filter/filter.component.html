@@ -1,0 +1,8 @@
+<aside class="col-12">
+    <select class="form-select form-select-sm mt-3" (change)="saveIdCategorySelected($event)"title="post-filter">
+        <option name="all" value="0">Todos los viajes</option>
+        <ng-container *ngFor="let category of arrCategories">
+            <option name="category.title" [value]="category.id">{{category.title}}</option>
+        </ng-container>
+    </select>
+</aside>

@@ -1,0 +1,37 @@
+h1 {
+    color: var(--main-color-blue);
+}
+
+label {
+    color: var(--color-background-site);
+    font-size: 1rem;
+    font-family: Karla;
+}
+
+input, select, textarea {
+    border-radius: 2rem;
+    border: transparent;
+    background-color: var(--secondary-color-grey);
+    font-family: Karla;
+}
+
+input.height-input {
+    min-height: 10rem;
+    height: auto;
+    overflow-y: auto;
+
+}
+
+.container {
+    border-radius: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 2px solid var(--secondary-color-yellow);
+}
+
+.error {
+    margin-top: 0;
+}
+
+.btn-outline-warning {
+    border-radius: 30rem;
+}

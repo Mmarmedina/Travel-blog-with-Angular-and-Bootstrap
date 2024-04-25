@@ -1,0 +1,10 @@
+<div class="card mx-3">
+  <a [routerLink]="['/posts', post.id]"><img class="card-img-top" [src]="post.img" alt="Thumbnail-post"></a>
+  <div class="card-body pb-0">
+    <a class="card-title text" [routerLink]="['/posts', post.id]">{{post.title}}</a>
+    <p>{{post.excerpt}}</p>
+  </div>
+  <div class="d-flex justify-start mb-3 ms-4">
+    <p href="#" class="btn btn-outline-primary btn-sm" [routerLink]="['/categorias', category?.title?.toLowerCase()]">{{category?.title}}</p>
+  </div>
+</div>

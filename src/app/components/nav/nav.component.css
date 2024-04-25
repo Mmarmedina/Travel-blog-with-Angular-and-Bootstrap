@@ -1,0 +1,36 @@
+a, i {
+    font-size: 1.2rem;
+    color: var(--main-color-blue);
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.75s 0 ease;
+}
+
+a:hover, i:hover {
+    color: var(--secondary-color-yellow)
+}
+
+.navbar-toggler-icon {
+    font-size: 0.7rem;
+}
+
+@media (max-width: 1024px){
+    ul.navbar-nav.ml-auto {
+        display: none;
+    }
+}
+
+@media (max-width: 991px){
+    a, i {
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+<header>
+    <figure class="intro">
+        <img [src]="myPost?.img" [alt]="myPost?.title" class="img-fluid w-100">
+    </figure>
+    <p class="h1 text-white fw-bold mx-5">{{myPost?.title}}</p>
+</header>
+<main class="container">
+    <h1 class="my-3 mx-5 fw-bold">{{myPost?.title}}</h1>
+    <div class="d-flex justify-start ms-4">
+        <p href="#" class="btn btn-outline-primary btn-sm mx-4" [routerLink]="['/categorias', category?.title?.toLowerCase()]">{{category?.title}}</p>
+    </div>
+    <p class="my-1 mx-5 fw-light"><span class="fw-bold">Autor: </span>{{myPost?.author}}</p>
+    <p class="my-3 mx-5"><span class="fw-bold">Publicado: </span> {{myPost?.date}}</p>
+
+    <section class="my-3 mx-5 mb-5">
+        <p>{{myPost?.text}}</p>
+        <h2 class="h4 fw-bold mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <figure class="img">
+            <img src="https://images.unsplash.com/photo-1473625247510-8ceb1760943f?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="travel-photo">            
+        </figure>        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque similique accusantium vel expedita. Sapiente eius temporibus minus nobis fugiat tempore architecto ipsa rem voluptates eligendi, facilis, amet nostrum quaerat dolorem?Nisi quam, eveniet eum sapiente vitae in possimus eligendi nobis voluptate porro saepe. Quasi voluptas fugit, sint sit eos odio quidem soluta qui hic dolor deserunt deleniti, veritatis aperiam consequatur?
+        <p>Cumque libero tempora illum.Necessitatibus iste commodi, ad porro similique temporibus fuga quod atque doloremque hic dignissimos facilis ullam praesentium corporis! Tenetur quasi laborum at a dignissimos ex rerum molestias! Dicta ex deserunt magnam.</p>
+        <p>Eveniet officia numquam, doloribus distinctio, deserunt incidunt, minus illo aspernatur nulla temporibus libero suscipit magni dolorum eius. Impedit, magnam dolorum. Cupiditate cumque quod, quae dolores mollitia doloremque quibusdam ea quos?</p>
+        <h2 class="h4 fw-bold mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque similique accusantium vel expedita. Sapiente eius temporibus minus nobis fugiat tempore architecto ipsa rem voluptates eligendi, facilis, amet nostrum quaerat dolore. Eveniet officia numquam, doloribus distinctio, deserunt incidunt, minus illo aspernatur nulla temporibus libero suscipit magni dolorum eius. Impedit, magnam dolorum. Cupiditate cumque quod, quae dolores mollitia doloremque quibusdam ea quos?</p>
+        <figure class="img">
+            <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="travel-photo">            
+        </figure>
+        <h2 class="h4 fw-bold mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque similique accusantium vel expedita. Sapiente eius temporibus minus nobis fugiat tempore architecto ipsa rem voluptates eligendi, facilis, amet nostrum quaerat dolorem? Nisi quam, eveniet eum sapiente vitae in possimus eligendi nobis voluptate porro saepe. Quasi voluptas fugit, sint sit eos odio quidem soluta qui hic dolor deserunt deleniti, veritatis aperiam consequatur? Iusto eligendi expedita culpa alias explicabo quisquam ipsam harum quos saepe ipsum unde, id beatae sed optio similique maiores deleniti nisi fuga nemo officia illo odio? Beatae dolorem tempora placeat! Minima deserunt nobis, ab animi nulla corrupti id quis ipsa fugit non rem nihil velit nemo deleniti architecto blanditiis eos neque laudantium fugiat nisi autem quas. Cumque libero tempora illum.</p>
+        <p>Nisi quam, eveniet eum sapiente vitae in possimus eligendi nobis voluptate porro saepe. Quasi voluptas fugit, sint sit eos odio quidem soluta qui hic dolor deserunt deleniti, veritatis aperiam consequatur?Iusto eligendi expedita culpa alias explicabo quisquam ipsam harum quos saepe ipsum unde, id beatae sed optio similique maiores deleniti nisi fuga nemo officia illo odio? Beatae dolorem tempora placeat!</p>        
+        <p>Necessitatibus iste commodi, ad porro similique temporibus fuga quod atque doloremque hic dignissimos facilis ullam praesentium corporis! Tenetur quasi laborum at a dignissimos ex rerum molestias! Dicta ex deserunt magnam. Eveniet officia numquam, doloribus distinctio, deserunt incidunt, minus illo aspernatur nulla temporibus libero suscipit magni dolorum eius. Impedit, magnam dolorum. Cupiditate cumque quod, quae dolores mollitia doloremque quibusdam ea quos?</p>
+    </section>
+</main>
+
+
+
+
+
+

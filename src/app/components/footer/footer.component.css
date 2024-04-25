@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--main-color-blue);
+    color: var(--secondary-color-white);
+}
+
+.color-title {
+    color: var(--secondary-color-yellow);
+}
+
+.color-title:hover  {
+    color: var(--secondary-color-white);
+    cursor: pointer;   
+}
+
+.nav-color p:hover {
+    color: var(--secondary-color-yellow);
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.button {    
+    position: fixed;
+    bottom: 10px;
+    right: 10px;  
+}
+
+.btn-outline-warning {
+    border-radius: 30rem;
+    background-color: var(--main-color-blue);
+    color: var(--secondary-color-white);
+    border: none;
+    font-family: Karla;
+}

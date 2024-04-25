@@ -1,0 +1,5 @@
+.form-select {
+    color: var(--main-color-blue);
+    border: 0.1rem solid var(--main-color-blue);
+    font-weight: 500;
+}
