@@ -6,8 +6,8 @@
 
 .btn-outline-warning {
     border-radius: 30rem;
-    background-color: var(--main-color-blue);
-    color: var(--secondary-color-white);
+    background-color: var(--secondary-color-yellow);
+    color: var(--color-background-site);
     border: none;
     font-family: Karla;
 }
