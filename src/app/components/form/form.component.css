@@ -9,7 +9,7 @@ label {
 }
 
 input, select, textarea {
-    border-radius: 2rem;
+    border-radius: 0.8rem;
     border: transparent;
     background-color: var(--secondary-color-grey);
     font-family: Karla;

@@ -2,8 +2,8 @@
 <header>
     <h1 class="text-center my-5 fw-bold">Crear un nuevo post</h1>
 </header>
-<section class="container w-50 mb-5">
-    <form class="d-flex flex-column p-5" [formGroup]="form" (ngSubmit)="onSubmit()">
+<section class="container w-75 mb-5">
+    <form class="d-flex flex-column p-2 p-md-5" [formGroup]="form" (ngSubmit)="onSubmit()">
         <div class="field mb-3">
             <label class="d-block fw-bold mb-2" for="title">Título</label>
             <input class="mb-2 p-2 w-100" id="title" name="title" type="text" formControlName="title">
@@ -76,7 +76,7 @@
                 *ngIf="checkError ('date', 'required')">Indica la fecha en la que se publicará el post.
             </p>
         </div>
-        <button class="btn btn-outline-warning my-3 fw-bold w-50" type="submit" [disabled]="form.invalid">Crear post</button>
+        <button class="btn btn-outline-warning my-3 fw-bold w-75" type="submit" [disabled]="form.invalid">Crear post</button>
     </form>
 </section>
 
