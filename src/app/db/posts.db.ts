@@ -27,7 +27,7 @@ export const POSTS: Post [] =  [
       text: 'Relajándose en las hermosas playas tailandesas. Tailandia es conocida por sus playas de arena blanca y aguas cristalinas. En este viaje, explorarás algunas de las islas más impresionantes del país, como Phuket y Koh Phi Phi. Sumérgete en la cultura tailandesa, disfruta de la deliciosa cocina local y relájate bajo el cálido sol tropical. Descubre por qué Tailandia es un destino de ensueño para los amantes de la playa y los aventureros por igual.',
       excerpt: 'Relajándose en las hermosas playas tailandesas.',
       author: 'Amante del Sol',
-      img: 'https://plus.unsplash.com/premium_photo-1681582960531-7b5de57fb276?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dv',
+      img: 'https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: '01-05-2023',
       id_category: 3
     },
@@ -37,7 +37,7 @@ export const POSTS: Post [] =  [
       text: 'Explorando la belleza salvaje de la Patagonia. La Patagonia, con sus vastos paisajes y naturaleza virgen, es el sueño de cualquier amante de la aventura. Desde el Parque Nacional Torres del Paine hasta los glaciares imponentes, este rincón del mundo te dejará sin aliento. En este relato, compartiré mis experiencias al caminar por senderos remotos, acampar bajo un cielo estrellado y maravillarme con la diversidad de la fauna patagónica. Únete a mí en esta emocionante aventura en el extremo sur de Sudamérica.',
       excerpt: 'Explorando la belleza salvaje de la Patagonia.',
       author: 'Nómada Patagónico',
-      img: 'https://plus.unsplash.com/premium_photo-1681486513746-3f1d94cf6363?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      img: 'https://images.unsplash.com/photo-1552751753-0fc84ae5b6c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: '11-03-2023',
       id_category: 2
     },
@@ -107,7 +107,7 @@ export const POSTS: Post [] =  [
       text: 'Sumérgete en la colorida y animada atmósfera del Carnaval de Río de Janeiro. Vive la magia de los desfiles, los trajes espectaculares y la música contagiosa mientras exploras la rica cultura de Brasil durante esta festividad icónica.Cum a nemo harum laudantium atque ratione qui, aliquam aperiam culpa maxime? Amet, odit! Harum voluptatem laudantium aperiam atque eos, a odio commodi provident officia neque facere doloremque soluta, aliquid officiis possimus recusandae incidunt id dolores! Impedit, repellendus! Repellendus illo mollitia officia facere eligendi! Quasi nemo consequuntur odit veniam quae. Impedit aperiam consequuntur eveniet consectetur atque libero veniam repudiandae enim, facilis fugiat ratione quibusdam optio assumenda nobis quaerat ab iure. Inventore labore tenetur perferendis',
       excerpt: 'Sumérgete en la colorida y animada atmósfera del Carnaval de Río de Janeiro.',
       author: 'Explorador Festivo',
-      img: 'https://plus.unsplash.com/premium_photo-1701203333206-40886983dff3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      img: 'https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: '15-07-2023',
       id_category: 5
     },
