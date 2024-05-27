@@ -23,7 +23,7 @@ export const POSTS: Post [] =  [
     },
     {
       id: 3,
-      title: 'Explorando Barcelona',
+      title: 'Descubre la Magia de Barcelona',
       text: 'Descubre la vibrante ciudad de Barcelona, llena de arquitectura modernista, playas soleadas y una escena culinaria emocionante.',
       excerpt: 'Descubre la vibrante ciudad de Barcelona.',
       author: 'Aventurero en Barcelona',
@@ -34,8 +34,8 @@ export const POSTS: Post [] =  [
     {
       id: 4,
       title: 'Aventuras en la Patagonia',
-      text: 'Explorando la belleza salvaje de la Patagonia. La Patagonia, con sus vastos paisajes y naturaleza virgen, es el sueño de cualquier amante de la aventura. Desde el Parque Nacional Torres del Paine hasta los glaciares imponentes, este rincón del mundo te dejará sin aliento. En este relato, compartiré mis experiencias al caminar por senderos remotos, acampar bajo un cielo estrellado y maravillarme con la diversidad de la fauna patagónica. Únete a mí en esta emocionante aventura en el extremo sur de Sudamérica.',
-      excerpt: 'Explorando la belleza salvaje de la Patagonia.',
+      text: 'Descubriendo la belleza salvaje de la Patagonia. La Patagonia, con sus vastos paisajes y naturaleza virgen, es el sueño de cualquier amante de la aventura. Desde el Parque Nacional Torres del Paine hasta los glaciares imponentes, este rincón del mundo te dejará sin aliento. En este relato, compartiré mis experiencias al caminar por senderos remotos, acampar bajo un cielo estrellado y maravillarme con la diversidad de la fauna patagónica. Únete a mí en esta emocionante aventura en el extremo sur de Sudamérica.',
+      excerpt: 'Descubriendo la belleza salvaje de la Patagonia.',
       author: 'Nómada Patagónico',
       img: 'https://images.unsplash.com/photo-1552751753-0fc84ae5b6c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: '11-03-2023',
@@ -55,7 +55,7 @@ export const POSTS: Post [] =  [
       id: 6,
       title: 'Aventura en el Gran Cañón',
       text: 'Explorando los vastos cañones y paisajes impresionantes del Gran Cañón en Arizona. Este viaje me llevó a través de senderos desafiantes y miradores espectaculares que ofrecen vistas panorámicas de las capas geológicas únicas del cañón. Acampar bajo las estrellas en el borde del cañón fue una experiencia inolvidable, conectándome con la naturaleza en su forma más grandiosa.',
-      excerpt: 'Explorando los vastos cañones y paisajes impresionantes del Gran Cañón en Arizona.',
+      excerpt: 'Los vastos cañones y paisajes impresionantes del Gran Cañón en Arizona.',
       author: 'Aventurero del Gran Cañón',
       img: 'https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: '15-08-2023',
@@ -73,7 +73,7 @@ export const POSTS: Post [] =  [
     },
     {
       id: 8,
-      title: 'Paisajes pintorescos: explorando la Campiña Inglesa',
+      title: 'Paisajes pintorescos: viajando a la Campiña Inglesa',
       text: 'Un tranquilo viaje a través de los pintorescos paisajes rurales de la campiña inglesa. Descubre encantadores pueblos, extensos campos verdes y antiguas casas de campo. Disfruta de la serenidad del entorno y conéctate con la auténtica vida rural.',
       excerpt: 'Un tranquilo viaje a través de los pintorescos paisajes rurales de la campiña inglesa.',
       author: 'Amante de la Naturaleza',
