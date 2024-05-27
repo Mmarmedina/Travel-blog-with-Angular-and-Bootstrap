@@ -3,9 +3,6 @@ import { Post } from "../interfaces/post.interface";
 export const POSTS: Post [] =  [
     {
       id: 1, 
-      title: 'Descubriendo París, la Ciudad de la Luz',
-      text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
-      excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
       title: 'Cultura en Kioto',
       text: 'Sumergiéndose en la rica historia de Kioto, Japón. Kioto, la antigua capital de Japón, es un tesoro de cultura e historia. Desde los impresionantes templos hasta los jardines zen, cada rincón de Kioto cuenta una historia fascinante. En este viaje, exploraré los rincones menos conocidos de la ciudad, disfrutaré de la ceremonia del té y me perderé en los callejones tradicionales. Acompáñame en este viaje para descubrir la esencia de la cultura japonesa en Kioto.',
       excerpt: 'Sumergiéndose en la rica historia de Kioto, Japón.',
@@ -76,7 +73,7 @@ export const POSTS: Post [] =  [
     },
     {
       id: 8,
-      title: 'Pintorescos paisajes: Explorando la Campiña Inglesa',
+      title: 'Paisajes pintorescos: Explorando la Campiña Inglesa',
       text: 'Un tranquilo viaje a través de los pintorescos paisajes rurales de la campiña inglesa. Descubre encantadores pueblos, extensos campos verdes y antiguas casas de campo. Disfruta de la serenidad del entorno y conéctate con la auténtica vida rural.',
       excerpt: 'Un tranquilo viaje a través de los pintorescos paisajes rurales de la campiña inglesa.',
       author: 'Amante de la Naturaleza',
@@ -116,7 +113,7 @@ export const POSTS: Post [] =  [
     },
     {
       id: 12,
-      title: 'Descubriendo París',
+      title: 'Descubriendo París, La Ciudad de la Luz',
       text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
       excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
       author: 'Historiador Viajero',
@@ -135,6 +132,3 @@ export const POSTS: Post [] =  [
       id_category: 3
     }
 ]
-
-
-
