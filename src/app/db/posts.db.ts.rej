@@ -1,10 +1,17 @@
 diff a/src/app/db/posts.db.ts b/src/app/db/posts.db.ts	(rejected hunks)
-@@ -3,7 +3,7 @@
+@@ -3,11 +3,11 @@
  export const POSTS: Post [] =  [
      {
        id: 1, 
--      title: 'Descubriendo París',
-+      title: 'Descubriendo París, la Ciudad de la Luz',
-       text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
-       excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
+-      title: 'Descubriendo París, la Ciudad de la Luz',
+-      text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
+-      excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
++      title: 'Cultura en Kioto',
++      text: 'Sumergiéndose en la rica historia de Kioto, Japón. Kioto, la antigua capital de Japón, es un tesoro de cultura e historia. Desde los impresionantes templos hasta los jardines zen, cada rincón de Kioto cuenta una historia fascinante. En este viaje, exploraré los rincones menos conocidos de la ciudad, disfrutaré de la ceremonia del té y me perderé en los callejones tradicionales. Acompáñame en este viaje para descubrir la esencia de la cultura japonesa en Kioto.',
++      excerpt: 'Sumergiéndose en la rica historia de Kioto, Japón.',
        author: 'Viajero Aventurero',
+-      img: 'https://images.unsplash.com/photo-1431274172761-fca41d930114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
++      img: 'https://images.unsplash.com/photo-1558862107-d49ef2a04d72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+       date: '01-01-2023',
+       id_category: 1
+     },
