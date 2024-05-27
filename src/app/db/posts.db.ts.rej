@@ -1,0 +1,10 @@
+diff a/src/app/db/posts.db.ts b/src/app/db/posts.db.ts	(rejected hunks)
+@@ -3,7 +3,7 @@
+ export const POSTS: Post [] =  [
+     {
+       id: 1, 
+-      title: 'Descubriendo París',
++      title: 'Descubriendo París, la Ciudad de la Luz',
+       text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
+       excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
+       author: 'Viajero Aventurero',
