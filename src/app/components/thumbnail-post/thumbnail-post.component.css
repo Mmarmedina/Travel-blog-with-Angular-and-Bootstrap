@@ -9,6 +9,8 @@
     border-radius: 50px;
     padding: 20px;
     cursor: pointer;
+    height: 350px; 
+    object-fit: cover;
 }
 
 .card {

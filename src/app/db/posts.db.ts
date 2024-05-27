@@ -3,11 +3,11 @@ import { Post } from "../interfaces/post.interface";
 export const POSTS: Post [] =  [
     {
       id: 1, 
-      title: 'Descubriendo París',
-      text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
-      excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
+      title: 'Cultura en Kioto',
+      text: 'Sumergiéndose en la rica historia de Kioto, Japón. Kioto, la antigua capital de Japón, es un tesoro de cultura e historia. Desde los impresionantes templos hasta los jardines zen, cada rincón de Kioto cuenta una historia fascinante. En este viaje, exploraré los rincones menos conocidos de la ciudad, disfrutaré de la ceremonia del té y me perderé en los callejones tradicionales. Acompáñame en este viaje para descubrir la esencia de la cultura japonesa en Kioto.',
+      excerpt: 'Sumergiéndose en la rica historia de Kioto, Japón.',
       author: 'Viajero Aventurero',
-      img: 'https://images.unsplash.com/photo-1431274172761-fca41d930114?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      img: 'https://images.unsplash.com/photo-1558862107-d49ef2a04d72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       date: '01-01-2023',
       id_category: 1
     },
@@ -23,13 +23,13 @@ export const POSTS: Post [] =  [
     },
     {
       id: 3,
-      title: 'Playas paradisíacas en Tailandia',
-      text: 'Relajándose en las hermosas playas tailandesas. Tailandia es conocida por sus playas de arena blanca y aguas cristalinas. En este viaje, explorarás algunas de las islas más impresionantes del país, como Phuket y Koh Phi Phi. Sumérgete en la cultura tailandesa, disfruta de la deliciosa cocina local y relájate bajo el cálido sol tropical. Descubre por qué Tailandia es un destino de ensueño para los amantes de la playa y los aventureros por igual.',
-      excerpt: 'Relajándose en las hermosas playas tailandesas.',
-      author: 'Amante del Sol',
-      img: 'https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '01-05-2023',
-      id_category: 3
+      title: 'Explorando Barcelona',
+      text: 'Descubre la vibrante ciudad de Barcelona, llena de arquitectura modernista, playas soleadas y una escena culinaria emocionante.',
+      excerpt: 'Descubre la vibrante ciudad de Barcelona.',
+      author: 'Aventurero en Barcelona',
+      img: 'https://images.unsplash.com/photo-1547482802-54e4e97a1637?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: '10-09-2023',
+      id_category: 1
     },
     {
       id: 4,
@@ -43,12 +43,12 @@ export const POSTS: Post [] =  [
     },
     {
       id: 5,
-      title: 'Cultura en Kioto',
-      text: 'Sumergiéndose en la rica historia de Kioto, Japón. Kioto, la antigua capital de Japón, es un tesoro de cultura e historia. Desde los impresionantes templos hasta los jardines zen, cada rincón de Kioto cuenta una historia fascinante. En este viaje, exploraré los rincones menos conocidos de la ciudad, disfrutaré de la ceremonia del té y me perderé en los callejones tradicionales. Acompáñame en este viaje para descubrir la esencia de la cultura japonesa en Kioto.',
-      excerpt: 'Sumergiéndose en la rica historia de Kioto, Japón.',
-      author: 'Historiador Viajero',
-      img: 'https://images.unsplash.com/photo-1558862107-d49ef2a04d72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '15-06-2023',
+      title: 'Caminando por Nueva York',
+      text: 'Explora la ciudad que nunca duerme, desde Times Square hasta Central Park. Nueva York ofrece una experiencia única en cada rincón.',
+      excerpt: 'Explora la ciudad que nunca duerme, desde Times Square hasta Central Park.',
+      author: 'Caminante Urbano',
+      img: 'https://images.unsplash.com/photo-1536031696538-924fe11c7037?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: '05-12-2023',
       id_category: 1
     },
     {
@@ -113,23 +113,23 @@ export const POSTS: Post [] =  [
     },
     {
       id: 12,
-      title: 'Caminando por Nueva York',
-      text: 'Explora la ciudad que nunca duerme, desde Times Square hasta Central Park. Nueva York ofrece una experiencia única en cada rincón.',
-      excerpt: 'Explora la ciudad que nunca duerme, desde Times Square hasta Central Park.',
-      author: 'Caminante Urbano',
-      img: 'https://images.unsplash.com/photo-1536031696538-924fe11c7037?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '05-12-2023',
+      title: 'Descubriendo París',
+      text: 'Un viaje inolvidable por la Ciudad de la Luz. París, la capital de Francia, es una ciudad icónica llena de historia, arte y romance. Desde la majestuosidad de la Torre Eiffel hasta la serenidad de los Jardines de Luxemburgo, cada rincón de París ofrece una experiencia única para los viajeros. Pasear por las calles empedradas del Barrio Latino o explorar el Louvre, hogar de invaluables obras maestras, son solo algunas de las muchas actividades que te esperan en esta ciudad fascinante.',
+      excerpt: 'Un viaje inolvidable por la Ciudad de la Luz.',
+      author: 'Historiador Viajero',
+      img: 'https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: '15-06-2023',
       id_category: 1
     },
     {
       id: 13,
-      title: 'Explorando Barcelona',
-      text: 'Descubre la vibrante ciudad de Barcelona, llena de arquitectura modernista, playas soleadas y una escena culinaria emocionante.',
-      excerpt: 'Descubre la vibrante ciudad de Barcelona.',
-      author: 'Aventurero en Barcelona',
-      img: 'https://images.unsplash.com/photo-1547482802-54e4e97a1637?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      date: '10-09-2023',
-      id_category: 1
+      title: 'Playas paradisíacas en Tailandia',
+      text: 'Relajándose en las hermosas playas tailandesas. Tailandia es conocida por sus playas de arena blanca y aguas cristalinas. En este viaje, explorarás algunas de las islas más impresionantes del país, como Phuket y Koh Phi Phi. Sumérgete en la cultura tailandesa, disfruta de la deliciosa cocina local y relájate bajo el cálido sol tropical. Descubre por qué Tailandia es un destino de ensueño para los amantes de la playa y los aventureros por igual.',
+      excerpt: 'Relajándose en las hermosas playas tailandesas.',
+      author: 'Amante del Sol',
+      img: 'https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      date: '01-05-2023',
+      id_category: 3
     }
 ]
 
