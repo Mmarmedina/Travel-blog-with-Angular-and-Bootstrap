@@ -12,5 +12,6 @@ div.head {
 
 img {
     height: 40vh;
-    opacity: 75%;    
+    opacity: 75%;
+    object-fit: cover;    
 }
